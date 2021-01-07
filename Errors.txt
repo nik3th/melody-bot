@@ -1,0 +1,10 @@
+"- No check for prefix! - fix
+
+WE need to fix all the voice errors - fix
+- type !stop when bot is not in the channel I've got this error message "TypeError: Cannot set property 'songs' of undefined" - fix
+- type !loop I've got this error message "TypeError: Cannot read property 'toLowerCase' of undefined" - fix
+- type !play without name it's play something - fix
+- type  !queue when bot is not in the channel It's still see the list of the last song was played - fix
+- People can pause and skip form other channels - fix
+setselfdeaf - fix
+- Force skip needed -
