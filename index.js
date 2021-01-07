@@ -7,7 +7,7 @@ const fs = require('fs')
 const { YTSearcher } = require('ytsearcher');
 
 const searcher = new YTSearcher({
-    key: "AIzaSyAttsPHe2Ik1l3GXSGVwn_DTy3113lZnEo",
+    key: process.env.youtube_api,
     revealed: true
 });
 
@@ -102,4 +102,4 @@ snapchat: nikethhh`);
     }
 });
 
-client.login("Nzk2NjE1NDg5NTc3MTU2NjI4.X_af_Q.10Y4ndIJsiTgeo0An3z6Go-ruik");
+client.login(process.env.token;
